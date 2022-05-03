@@ -24,17 +24,17 @@
     </p>
     <form action="" id="survay-form">
       <label for="name" id="name-label"> Name </label><br>
-      <input type="text" id="name" placeholder="Enter your name"><br>
+      <input type="text" id="name" placeholder="Enter your name" required><br>
 
       <label for="email" id="email-label"> Email </label><br>
-      <input type="email" id="email" placeholder="Enter your email"><br>
+      <input type="email" id="email" placeholder="Enter your email" required><br>
 
       <label for="number" id="number-label"> Number (between 0 and 10)</label><br>
-      <input type="number" id="number" min="0" max="10" placeholder="Enter a number"><br>
+      <input type="number" id="number" min="0" max="10" placeholder="Enter a number" required><br>
 
 
       <label for="dropdown">Which category of art do you like?</label><br>
-      <select name="dropdown" id="dropdown">
+      <select name="dropdown" id="dropdown" required> 
         <option value="" disabled selected>Select one category</option>
         <option value="animal">Animal</option>
         <option value="object">Object</option> 
@@ -45,7 +45,7 @@
 
       <div class="radio-group">
         <p>Would you recommend IcicleArts to a friend?</p>
-        <input type="radio" name="rating" id="radio1" value="Definitely" checked>
+        <input type="radio" name="rating" id="radio1" value="Definitely" checked required>
         <label for="radio1">Definitely</label><br>
         
         <input type="radio" name="rating" id="radio2" value="Maybe not">
