@@ -1,0 +1,87 @@
+<!-- #########################################################################################################################
+  Project Name: Survay Form
+  Author: Mahla Nasrollahi
+  Last updated: 03/05/2022
+  -----------------------------------------------------------------------------------------------------------------------------
+  Project Source:  https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form
+  Project Template from: https://codepen.io/freeCodeCamp/full/VPaoNP
+########################################################################################################################### -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Survay Form</title>
+</head>
+<body>
+  <main id="main">
+    <h1 id="title">Survay Form</h1>
+    <p id="description">
+
+
+    </p>
+    <form action="" id="survay-form">
+      <label for="name" id="name-label"> Name </label>
+      <input type="text" id="name" placeholder="Enter your name"><br>
+
+      <label for="email" id="email-label"> Email </label>
+      <input type="email" id="email" placeholder="Enter your email"><br>
+
+      <label for="number" id="number-label"> Number (between 0 and 10)</label>
+      <input type="number" id="number" min="0" max="10" placeholder="Enter a number"><br>
+
+
+      <label for="dropdown">Which category of art do you like? </label>
+      <select name="dropdown" id="dropdown">
+        <option value="">Select a category</option>
+        <option value="animal">Animal</option>
+        <option value="object">Object</option> 
+        <option value="plant">Plant</option>
+        <option value="fantasy">Fantasy</option>
+        <option value="food">Food</option>
+      </select><br>
+
+      <p>Would you recommend IcicleArts to a friend?</p>
+
+      <input type="radio" name="rating" id="radio1" value="Definitely">
+      <label for="radio1">Definitely</label><br>
+
+      <input type="radio" name="rating" id="radio2" value="Maybe not">
+      <label for="radio2">Maybe not~</label><br>
+      
+      <input type="radio" name="rating" id="radio3" value="Not sure">
+      <label for="radio3">Not sure</label><br>
+     
+
+      <p>What would you like to see more?</p>
+      
+      <input type="checkbox" name="postcards" id="postcards" value="Postcards">
+      <label for="postcards">Postcards</label><br>
+
+      <input type="checkbox" name="wallpapers" id="wallpapers" value="Wallpapers">
+      <label for="wallpapers">Wallpaper Designs</label><br>
+
+      <input type="checkbox" name="illustrations" id="illustrations" value="Illustrations">
+      <label for="illustrations">More Illustrations</label><br>
+
+      <input type="checkbox" name="digital-stickers" id="digital-stickers" value="Digital Stickers">
+      <label for="digital-stickers">Digital Stickers</label><br>
+
+      <input type="checkbox" name="physical-stickers" id="physical-stickers" value="Physical Sticker">
+      <label for="physical-stickers">Physical Stickers</label><br>
+
+      <input type="checkbox" name="goodnotes" id="goodnotes" value="Goodnotes">
+      <label for="goodnotes">Goodnotes Digital Booklets</label><br>
+
+      <label for="comments">Any more suggestions or comments?</label><br>
+      <textarea name="comments" id="comments" cols="70" rows="5" placeholder="Enter your comments here..."></textarea>
+    
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </main>
+  
+</body>
+</html>
