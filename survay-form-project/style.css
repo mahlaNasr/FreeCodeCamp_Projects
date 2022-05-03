@@ -22,7 +22,7 @@ body{
 #name, #email, #number{
   border: 2px solid rgb(72, 72, 72);
   border-radius: 5px;
-  width: 500px;
+  width: 550px;
   padding: 10px;
   margin-top: 5px;
   margin-bottom: 20px;
@@ -31,7 +31,7 @@ body{
 #dropdown{
   margin-top: 5px;
   border-radius: 5px;
-  width: 525px;
+  width: 575px;
   padding: 10px;
 }
 
@@ -53,7 +53,6 @@ body{
 #comments{
   border-radius: 5px;
   border: 2px solid rgb(72, 72, 72);
- 
   padding: 10px;
   margin-top: 5px;
   margin-bottom: 20px;
@@ -72,8 +71,31 @@ body{
   font-weight: 50px;
   background-color: #209b68;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
 #submit:hover{
   background-color: #106034;
+}
+
+
+@media screen and (max-width: 700px){
+  #survay-form {
+    width: 350px;
+  }
+  #name, #email, #number{
+    width: 330px;
+  }
+
+  #dropdown{
+    width: 355px; 
+  } 
+
+  #comments {
+    width: 330px;
+  }
+
+  #submit{
+    width: 350px;
+  }
 }
