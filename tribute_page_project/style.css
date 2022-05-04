@@ -23,9 +23,11 @@ body{
 
 #image{
   /* border: 2px solid pink; */
+  display: block;
   width: 48vw;
-  min-width: 330px;
+  max-width: 530px;
   height: auto;
+  margin: auto;
 }
 
 #img-caption{
