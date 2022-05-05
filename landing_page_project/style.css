@@ -20,6 +20,10 @@ body{
   align-items: center;
   align-content: space-around;
   background-color: rgb(203, 191, 216);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
     /* flex-wrap: wrap; */
 }
 
@@ -48,7 +52,7 @@ body{
 
 #title{
   text-align: center;
-  padding: 5px 30px 30px 30px;
+  padding: 70px 30px 30px 30px;
 }
 
 .feature-text, .video-text{
