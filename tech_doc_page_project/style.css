@@ -1,176 +1,114 @@
 body{
-  background-color: rgb(250, 239, 255);
+  background-color: rgb(241, 241, 241);
+  font-family: 'Open Sans', Arial, sans-serif;
   padding: 0;
   margin: 0;
 }
 
+#navbar{
+  border-right: 1.5px solid rgb(142, 142, 142);
+  display: block;
+  position: fixed;
+  width: 300px;
+  min-width: 250px;
+  height: 100%;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+}
 
-#main{
-  /* border: 2px solid black; */
-  text-align: center;  
+#navbar ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#navbar ul li {
+  border-bottom: 1.5px solid rgb(142, 142, 142);
+  margin: 1px 0;
+  padding: 10px 30px ;
+}
+
+.nav-link, .reference-link{
+  text-decoration: none;
+  font-size: 18px;
+  color: #3a3a3a;
+  display: block;
   width: 100%;
 }
 
-
-#header {
-  /* border: 2px solid black; */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  align-content: space-around;
-  background-color: rgb(203, 191, 216);
-    /* flex-wrap: wrap; */
-}
-
-#header-img{
-  /* border: 2px solid green; */
-  padding: 5px;
-  width: 50vw;
-  max-width: 55px;
-  margin-left: 50px;
-} 
-
-#nav-bar{
-  padding-right: 30px;
-}
-
-#nav-bar a{
-  /* border: 2px solid pink; */
-  color:rgb(0, 0, 0);
-  padding: 6px;
-  text-decoration: none;
-}
-
-#nav-bar a:hover{
+a:hover {
   color: rgb(33, 151, 255);
 }
 
-#title{
+#header {
+  border-bottom: 1.5px solid rgb(142, 142, 142);
+  font-size: 26px;
   text-align: center;
-  padding: 5px 30px 30px 30px;
+  padding: 15px;
+  color: #2b2b2b;
 }
 
-.feature-text, .video-text{
-  font-size: 20px;
-  padding: 30px 0 10px 0;
-}
-
-#feature1, #feature2, #feature3{
-  /* border: 2px solid black; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: space-between;
-  flex-wrap: wrap;
-  padding: 10px;
-}
-
-.details1, .details3{ 
-  /* border: 2px solid blue; */
-  padding: 10px 10px 10px 60px;
-  font-size: 18px;
-  text-align: left;
-}
-
-.details2{
-  /* border: 2px solid #0000ff; */
-  font-size: 18px;
-  text-align: left;
-  padding-left: 40px;
-}
-
-.item1, .item4, .item7{
-  /* border: 2px solid #0000ff; */
-  font-size: 50px;  
-  margin-top: 10px;
-}
-
-.item1{ 
-  padding: 10px;
-}
-
-.item4{
-  padding: 10px 20px 10px 10px;
-  margin-left: 60px;
-}
-
-.item7{
-  padding: 10px 10px 10px 40px;
-  margin-left: 40px;
-}
-
-.item2, .item5, .item8 { 
-  /* border: 2px solid blue; */
-  margin-bottom: 10px;
-}
-
-hr{
-  width: 500px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-#video{
-  padding: 30px 0 50px 0;
-}
-
-#form{
-  /* background-color: rgb(203, 191, 216); */
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
-
-#email{
-  border: 2px solid rgb(72, 72, 72);
-  border-radius: 5px;
-  width: 300px;
-  padding: 10px;
-  margin-top: 5px;
-  margin-bottom: 20px;
-}
-
-#submit {
-  border: 2px solid rgb(72, 72, 72);
-  border-radius: 5px;
+#main-doc{
   display: block;
-  margin: auto;
-  text-align: center;
-  width: 200px;
-  padding: 10px;
-  color: white;
-  font-size: 16px;
-  font-weight: 50px;
-  background-color: #0c5d8d;
-  cursor: pointer;
+  padding-left: 300px;
 }
 
-#submit:hover {
-  background-color: #106034;
+.main-section {
+  text-align: left;
+  padding: 20px;
 }
 
-footer{
-  background-color: rgb(203, 191, 216);
-  padding-top: 10px;
-  padding-bottom: 20px;
-  opacity: 0.6;
+.main-section header{
+  font-size: 30px;
+  font-weight: 500;
+  color: #3a3a3a;
 }
 
-@media screen and (max-width: 1000px) {
+.main-section p{
+  padding-left: 20px;
+  line-height: 25px;
+  color: rgb(69, 69, 69);
+}
 
-  #video {
-    width: 450px;
+.main-section ul {
+  padding-left: 70px;
+  line-height: 40px;
+  color: rgb(69, 69, 69);
+}
+
+code{
+  background-color: rgb(233, 233, 233);
+  color: #444444;
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 10px 10px 50px;
+}
+
+
+@media screen and (max-width: 800px) {
+
+  #navbar {
+    display: block;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
   }
 
-  .item1, .item4, .item7{
-    border: 2px solid #0000ff;
-    display: none;
+  #main-doc{
+    position: relative;
+    padding-left: 0px;
+    padding-top: 380px;
   }
 
-  .details1 {
-    /* border: 2px solid #0000ff; */
-    padding: 0;
-    margin-right: 40px;
-  }
 }
 

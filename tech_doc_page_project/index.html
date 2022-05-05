@@ -17,15 +17,20 @@
   <title>Technical Documentation Page</title>
 </head>
 <body>
+  <nav id="navbar">
+    <header id="header">Python Documentation</header>
+    <ul>
+      <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+      <li><a href="#Python_History" class="nav-link">Python History</a></li>
+      <li><a href="#Hello_World" class="nav-link">Hello World</a></li>
+      <li><a href="#Variables" class="nav-link">Variables</a></li>
+      <li><a href="#Declaring_Variables" class="nav-link">Declaring Variables</a></li>
+      <li><a href="#Strings" class="nav-link">Strings</a></li>
+      <li><a href="#Reference" class="nav-link">Reference</a></li>
+    </ul>
+  </nav>
   <main id="main-doc">
-    <nav id="navbar">
-      <header></header>
-      <ul>
-        <li><a href="" class="nav-link">dfdhg</a></li>
-      </ul>
-    </nav>
-
-    <section id="Introduction" class="main-section">
+    <section class="main-section" id="Introduction">
       <header>Introduction</header>
       <p>Python is a computer programming language. Or, in other words, a vocabulary and set of grammatical rules for instructing
       a computer to perform tasks. Its original creator, Guido van Rossum, named it after the BBC television show &apos;Monty
@@ -72,8 +77,7 @@
     <section class="main-section" id="Hello_World">
       <header>Hello World</header>
       <p>To get started with writing Pythton, open the Terminal and type python3. Then write your first "Hello world" Python code:</p>
-      <code>
-        >>> print("Hello World") <br>
+      <code> >>> print("Hello World")
         Hello World
       </code>
       <p>Press enter and you&apos;ll see an output saying Hello World.</p>
@@ -103,10 +107,10 @@
     <section class="main-section" id="Declaring_Variables">
       <header>Declaring Variables</header>
       <p>Now let&apos;s declare a variable name called result:</p>
-      <code>
-        >>> result = 3 * 5 <br>
-        >>> result
-      </code>
+      <code>>>> result = 3 * 5
+            >>> result
+            15
+      </code>      
       <p>Python sees an assignment: we assign the result of 3 * 5 to the variable called result. Assignments are done
       with the &apos;=&apos; character, which is conveniently called &apos;is&apos;. So we just told Python: I declare that result 
       is the result of the expression 3 * 5.</p>
@@ -117,18 +121,24 @@
       <p>A string in Python is a sequence of characters. In even simpler terms, a string is a piece of text. Strings are not just a Python thing. It’s a well-known term in the
       field of computer science and means the same thing in most other languages as well. Now that we know what a string is,
       we&apos;ll look at how to create a string. A Python string needs quotes around it for it to be recognized as such, like this:</p>
-      <code>
-            >>> 'Hello, World'
-          </code>
+      <code>>>> 'Hello, World'
+            'Hello, World'</code>
       <p>Because of the quotes, Python understands this is a sequence of characters and not a command, number, or variable.
       And just like with numbers, some of the operators we learned before work on Python strings too. Try it with the
       following expressions:</p>
-      <code>
-        >>> 'a' + 'b' <br>
-        'ab' <br>
-        >>> 'ab' * 4 <br>
-        'abababab'
-      </code>
+      <code>>>> 'a' + 'b'
+        'ab' 
+        >>> 'ab' * 4
+        'abababab'</code>
+    </section>
+
+    <section class="main-section" id="Reference">
+      <header>Reference</header>
+      <p>All the documentation in this page is taken from: </p>
+      <ul>
+        <li><a class="reference-link" href="https://python.land/python-tutorial">Python.Land</a></li>
+      </ul>
+
     </section>
   </main>
   
