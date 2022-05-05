@@ -1,0 +1,136 @@
+<!-- ################################################################################################################################################
+  Project Name: Technical Documentation Page
+  Author: Mahla Nasrollahi
+  Last updated: 05/05/2022
+  -------------------------------------------------------------------------------------------------------------------------------------------------
+  Project Source:  https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page
+  Project Template from: https://codepen.io/freeCodeCamp/full/NdrKKL
+################################################################################################################################################## -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Technical Documentation Page</title>
+</head>
+<body>
+  <main id="main-doc">
+    <nav id="navbar">
+      <header></header>
+      <ul>
+        <li><a href="" class="nav-link">dfdhg</a></li>
+      </ul>
+    </nav>
+
+    <section id="Introduction" class="main-section">
+      <header>Introduction</header>
+      <p>Python is a computer programming language. Or, in other words, a vocabulary and set of grammatical rules for instructing
+      a computer to perform tasks. Its original creator, Guido van Rossum, named it after the BBC television show &apos;Monty
+      Python&apos;s Flying Circus.&apos; Hence, you&apos;ll find that Python books, code examples, and documentation sometimes contain
+      references to this television show.</p>
+      
+      <p>People use Python in many places. Its rich base library makes it excellent for all kinds of little helper scripts. But
+      it scales just as well to large systems. To illustrate: the original creators of YouTube used Python for the most part!
+      Dropbox, as far as I know, is primarily written in Python as well. And did you know Instagram&apos;s entire backend and
+      website are written in Python as well?<br>
+      You can use Python to automate tasks, perform calculations, create user interfaces, create website backends, access
+      databases, download information from the Internet, etc. It&apos;s a versatile language that is easy to learn and write, and
+      although perfect for beginning programmers, is just as useful and powerful for seasoned professionals.</p>
+      
+      <p>Python is extremely popular in a quickly growing field of expertise called data science. Many data scientists use Python
+      for their day-to-day work. And these are just a few examples. If you start looking closely, Python is very ubiquitous.
+      <br>
+      Many people say that Python comes with batteries included. It&apos;s a fun way of stating that it includes a comprehensive
+      base library. In addition to this, you can find hundreds of thousands of external packages contributed by the enormous
+      community. You&apos;ll find supporting base libraries and packages for pretty much anything you want to accomplish.</p>
+    </section>
+
+    <section class="main-section" id="Python_History">
+      <header>Python History</header>
+      <p>It all started on a cold, foggy night in December 1987, when a Dutch scientist called Guido van Rossum woke up in the
+      middle of the night. He just had a profound dream, and although he didn&apos;t know it at the time, that dream would
+      eventually change his life and the lives of many others.So he got out of bed and slipped into his pantofles. After throwing some wood in the almost smothered fireplace, he
+      started jotting down as much of this dream as he could remember. A new programing language was born: Python.</p>
+    
+      <p>The only truth from the above story is the name Guido van Rossum and the date. In 1987, Guido worked on a big
+      distributed operating system at the CWI, a national research institute for mathematics and computer science in the
+      Netherlands. Within that project, he had some freedom to work on side projects. Armed with the knowledge and experience
+      he had built up in the years before, working on a computer language called ABC, he started writing the Python
+      programming language.</p>
+      
+      <p>As you can see from the Python history timeline, Python 2 and 3 have been developed and maintained side by side for an
+      extended period. The primary reason is that Python 3 code is not entirely backward compatible with Python 2 code. This
+      incompatibility caused a prolonged adoption rate. Many people were happy with version 2 and didn&apos;t see much reason to
+      upgrade. On top of that, Python 3 was initially slower than Python 2. As Python 3 kept improving and receiving new
+      features, eventually, it started to take off.</p>
+      
+      </section>
+
+    <section class="main-section" id="Hello_World">
+      <header>Hello World</header>
+      <p>To get started with writing Pythton, open the Terminal and type python3. Then write your first "Hello world" Python code:</p>
+      <code>
+        >>> print("Hello World") <br>
+        Hello World
+      </code>
+      <p>Press enter and you&apos;ll see an output saying Hello World.</p>
+    </section>
+
+    <section class="main-section" id="Variables">
+      <header>Variables</header>
+      <p>A variable is used to store information that can be referenced later on.</p>
+      <p>So a variable is what we use to name the result of, for example, a calculation we make. Or, in other words, we can
+      assign the result of that calculation to a variable. We can create an unlimited amount of variables; we just have to
+      make sure we give them unique names.</p>
+      <p>Some characters are not allowed in a variable name; there are a few rules we need to abide by. Let&apos;s start with the
+      complete list of valid characters that can appear in a variable name:</p>
+      <ul>
+        <li>Lowercase and uppercase letters: a-z and A-Z</li>
+        <li>Numbers: 0-9</li>
+        <li>Underscores: _</li>
+      </ul>
+      <p>Additionally, there are these two rules:</p>
+      <ul>
+        <li>Variable names must start with a letter or the underscore character, and can not start with a number.</li>
+        <li>Names are case-sensitive</li>
+      </ul>
+
+    </section>
+
+    <section class="main-section" id="Declaring_Variables">
+      <header>Declaring Variables</header>
+      <p>Now let&apos;s declare a variable name called result:</p>
+      <code>
+        >>> result = 3 * 5 <br>
+        >>> result
+      </code>
+      <p>Python sees an assignment: we assign the result of 3 * 5 to the variable called result. Assignments are done
+      with the &apos;=&apos; character, which is conveniently called &apos;is&apos;. So we just told Python: I declare that result 
+      is the result of the expression 3 * 5.</p>
+    </section>
+
+    <section class="main-section" id="Strings">
+      <header>Strings</header>
+      <p>A string in Python is a sequence of characters. In even simpler terms, a string is a piece of text. Strings are not just a Python thing. It’s a well-known term in the
+      field of computer science and means the same thing in most other languages as well. Now that we know what a string is,
+      we&apos;ll look at how to create a string. A Python string needs quotes around it for it to be recognized as such, like this:</p>
+      <code>
+            >>> 'Hello, World'
+          </code>
+      <p>Because of the quotes, Python understands this is a sequence of characters and not a command, number, or variable.
+      And just like with numbers, some of the operators we learned before work on Python strings too. Try it with the
+      following expressions:</p>
+      <code>
+        >>> 'a' + 'b' <br>
+        'ab' <br>
+        >>> 'ab' * 4 <br>
+        'abababab'
+      </code>
+    </section>
+  </main>
+  
+</body>
+</html>
