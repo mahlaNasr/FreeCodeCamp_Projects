@@ -206,7 +206,7 @@ p {
   background: linear-gradient(9deg, rgba(2, 0, 36, 1) 0%, rgba(124, 0, 102, 1) 58%, rgba(226, 64, 214, 1) 94%);
 }
 
-.project-section-header { 
+.project-title { 
   max-width: 640px;
   margin: 0 auto 6rem auto;
 }
@@ -228,14 +228,14 @@ p {
   box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
 }
 
-.project-title {
+.project-link-title {
   /* border: 3px solid pink; */
   color: rgb(215, 215, 215);
   font-size: 2rem;
   padding: 0.5rem 0.5rem;
 }
 
-.project-title p {
+.project-link-title p {
   padding: 1.5rem 0;
 }
 
