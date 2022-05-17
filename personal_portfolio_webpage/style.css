@@ -342,3 +342,26 @@ p {
   }
 }
 
+/* **************************************************
+ * 
+ * Footer  
+ *
+************************************************** */
+
+footer { 
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background: #373737;
+  border-top: 4px solid var(--main-blue);
+}
+
+footer p {
+    margin: 2rem;
+    opacity: 0.6;
+}
+
+footer i {
+  vertical-align: middle;
+}
