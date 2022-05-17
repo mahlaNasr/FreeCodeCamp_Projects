@@ -229,13 +229,20 @@ p {
 }
 
 .project-title {
+  /* border: 3px solid pink; */
   color: rgb(215, 215, 215);
   font-size: 2rem;
-  padding: 2rem 0.5rem;
+  padding: 0.5rem 0.5rem;
+}
+
+.project-title p {
+  padding: 1.5rem 0;
 }
 
 .project-image {
+  /* border: 5px solid green; */
   height: calc(100% - 6.8rem);
+  padding-bottom: 1rem;
   width: 100%;
   object-fit: cover;
 }
@@ -364,4 +371,11 @@ footer p {
 
 footer i {
   vertical-align: middle;
+}
+
+@media (max-width: 29.75em) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
 }
