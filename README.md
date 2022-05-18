@@ -16,7 +16,7 @@
   <ol>
     <li><a href="#about-the-projects">About The Projects</a></li>
     <li>
-      <a href="#Legacy_Responsive_Web_Design_Projects">Legacy Responsive Web Design Projects</a>
+      <a href="#legacy_responsive_web_design_projects">Legacy Responsive Web Design Projects</a>
       <ul>
         <li><a href="#tribute_page_project">Tribute Page</a></li>
         <li><a href="#landing_page_project">Landing Page</a></li>
@@ -44,12 +44,9 @@
 <!-- 
 This project proposes a system where humanoid robot, NAO, uses scanned QR code ticket information to form simple conversations with the visitors at the [**the National Portrait Gallery**](https://www.nationalgallery.org.uk/whats-on/national-gallery-x) art museum. -->
 
-There are three folders that are in this repository:
-* (a) Legacy Responsive Web Design Projects
-* (b) Landing Page
-* (c) Survey Form
-* (d) Tech Doc Page
-* (e) Personal Portfolio Webpage
+There are two folders that are in this repository:
+* Legacy Responsive Web Design Projects
+* Front End Dev Libraries Projects
 
 
 
