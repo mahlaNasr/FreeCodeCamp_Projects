@@ -45,7 +45,7 @@ This repository is for showcasing all the projects that I have done by completin
 I have listed the courses that have been completed so far which had multiple big projects towards the end in order to test my knowledge.
 
 There are two folders so far in this repository:
-* [completed] Legacy Responsive Web Design Projects 
+* [[completed](https://www.freecodecamp.org/certification/fcc30cc2cbc-3d66-4eae-8983-d9e46ec37056/responsive-web-design)] Legacy Responsive Web Design Projects 
 * [ongoing] Front End Dev Libraries Projects 
 
 
@@ -73,6 +73,8 @@ A summary of the skills that were taught in this course:
 * CSS Flexbox 
 * CSS Grid
 * and Responsive Web Design Projects
+
+
 
 
 ### [(1)](https://codepen.io/mahlanasr/full/WNMbzdB) Tribute Page
