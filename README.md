@@ -26,7 +26,7 @@
       </ul>
     </li>
     <li>
-      <a href="#Front_End_Dev_Libraries_Projects">Front_End_Dev_Libraries_Projects</a>
+      <a href="#Front_End_Dev_Libraries_Projects">Front End Dev Libraries Projects</a>
       <ul>
         <li><a href="#demo-video-for-section-b">Demo Video for Section (b)</a></li>
       </ul>
@@ -41,16 +41,20 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Projects
 
-This project proposes a system where humanoid robot, NAO, uses scanned QR code ticket information to form simple conversations with the visitors at the [**the National Portrait Gallery**](https://www.nationalgallery.org.uk/whats-on/national-gallery-x) art museum.
+<!-- 
+This project proposes a system where humanoid robot, NAO, uses scanned QR code ticket information to form simple conversations with the visitors at the [**the National Portrait Gallery**](https://www.nationalgallery.org.uk/whats-on/national-gallery-x) art museum. -->
 
 There are three folders that are in this repository:
-* (1) Tribute Page
-* (2) Landing Page
-* (3) Survey Form
-* (4) Tech Doc Page
-* (5) Personal Portfolio Webpage
+* (a) Legacy Responsive Web Design Projects
+* (b) Landing Page
+* (c) Survey Form
+* (d) Tech Doc Page
+* (e) Personal Portfolio Webpage
 
 
+
+<!-- Legacy Responsive Web Design Projects -->
+## Legacy Responsive Web Design Projects 
 
 ### [(1)](https://github.com/mahlaNasr/nao_robot_project/tree/master/booking_website) Tribute Page
 To book a ticket for one of the gallery's events, I made a webpage where it generates a QR code with all the input parameters that you enter. This QR code then gets scanned by the robot to read the JSON file information inside the code. To run the scripts in this folder, [XAMPP](https://www.apachefriends.org/index.html) needs to be set up to run a local server. Write the IP address of your local server along with the directory of where the scripts are saved in the search bar of any search engine. In my case it was: `http://192.168.64.2/booking_website/index.php`.
@@ -73,7 +77,7 @@ Make sure that this folder (a) gets saved inside `htdocs` folder in XAMPP.
 
 
 
-
+<!-- 
 ### [(b)](https://github.com/mahlaNasr/nao_robot_project/tree/master/scripts_enu) Scripts (English) folder 
 This folder consists of all the codes that were written for the robot to scan QR codes and interact with the visitors.
 To run the whole system, write 
@@ -97,11 +101,21 @@ command in the terminal. Make sure that you are in the same directory as the pyt
 #### Demo Video for Section (c)
 [Personalised Speech Based on the 'Language' Parameter of a QR Code](https://youtu.be/HNX2OmFoa7k)
 
+ -->
 
 
-<!-- GETTING STARTED -->
-## Getting Started for Virtual NAO 
 
+<!-- Front End Dev Libraries Projects -->
+## Front End Dev Libraries Projects
+
+
+
+
+
+
+
+
+<!-- 
 To be able to run folders (2) and (3), follow these steps below to set up the neccessary applications. 
 
 #### Prerequisites 
@@ -158,7 +172,7 @@ Extra libraries are needed to run this section of scripts as well as comparing t
 2. We also need ZBar and OpenCV tools here as well.
 
 
-
+ -->
 
 <!-- CONTRIBUTING -->
 ## Contributing 
